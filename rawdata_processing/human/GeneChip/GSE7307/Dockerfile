@@ -12,9 +12,9 @@ RUN	wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM175nnn/GSM175789/suppl/GSM175
 	wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM175nnn/GSM175795/suppl/GSM175795.CEL.gz 
 
 # robust multi-array (RMA) for background correction, normalization and polishing with R/bioconductor
-RUN 	R -e "biocLite("affy", ask=TRUE)" && \
+RUN 	R -e "biocLite('affy', ask=TRUE)" && \
 	R -e "library(affy)" && \
-	R -e "write.exprs(justRMA(), file="RMA_GSE7307_expression.txt")"
+	R -e "write.exprs(justRMA(), file='RMA_GSE7307_expression.txt')"
 	
 
 CMD ["bash"]
