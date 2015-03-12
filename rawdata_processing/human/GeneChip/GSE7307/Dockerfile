@@ -1,5 +1,5 @@
 # Docker container for rawdata processing GSE7307 in RefEx
-FROM bioconductor/devel_base
+FROM bioconductor/release_core
 MAINTAINER Hiromasa Ono, hono@dbcls.rois.ac.jp
 
 # Install packages
