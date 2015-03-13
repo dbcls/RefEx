@@ -20,4 +20,4 @@ RUN	wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM175nnn/GSM175789/suppl/GSM175
 	wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM175nnn/GSM175795/suppl/GSM175795.CEL.gz 
 
 # robust multi-array (RMA) for background correction, normalization and polishing with R/bioconductor
-CMD ["R" "--vanilla" "<RMA.r"]
+CMD ["R", "--vanilla", "<RMA.r"]
