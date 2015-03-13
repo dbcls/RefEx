@@ -5,7 +5,7 @@ FROM bioconductor/release_core
 MAINTAINER Hiromasa Ono, hono@dbcls.rois.ac.jp
 
 # copy run script
-ADD	RMA.r /usr/local/bin/RMA.r
+ADD	RMA.sh /usr/local/bin/RMA.sh
 
 # Install packages
 RUN 	apt-get update && \
@@ -20,4 +20,4 @@ RUN	wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM175nnn/GSM175789/suppl/GSM175
 	wget ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM175nnn/GSM175795/suppl/GSM175795.CEL.gz 
 
 # robust multi-array (RMA) for background correction, normalization and polishing with R/bioconductor
-CMD ["R", "--vanilla", "--slave", "<", "/usr/local/bin/RMA.r"]
+ENTRYPOINT ["/usr/local/bin/RMA.sh"]
