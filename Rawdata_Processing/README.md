@@ -46,6 +46,7 @@ These data were processed using typical RNA-seq data analysis pipeline with [Top
 
 
 ## Calculation for tissue specificity
+Script: [ROKU\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU.r), [ROKU\_AIC\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU_AIC.r)  
 See details: http://bioconductor.org/packages/release/bioc/manuals/TCC/man/TCC.pdf (page 22-24)
 
 ## gene2pubmed
