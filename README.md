@@ -1,1 +1,1 @@
-# This is the repository to archive Dockerfiles for RefEx.
+RefEx (Reference Expression dataset; [http://refex.dbcls.jp/](http://refex.dbcls.jp/) ) provides suitable datasets as a reference for gene expression data of normal human, mouse, and rat tissues and cells. Four different measurement strategies are used in our collected gene expression data. These are: expressed sequence tag (EST), Affymetrix GeneChip, cap analysis of gene expression (CAGE), and transcriptome sequencing (RNA-seq).
