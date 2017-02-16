@@ -29,15 +29,38 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
  - mouse: [PRJNA30467](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA30467) (Mapping and quantifying mammalian transcriptomes by RNA-Seq; brain, liver, muscle)
  - rat: not applicable
 
-## Protocols
+
+## Processing protocols
 ### EST
  The number of ESTs was counted by source organ, based on the Bodymap method, according to the cDNA annotation of each EST entry. The EST data in RefEx comes from the BodyMap-Xs database, where gene expression data from the INSD EST division was previously compiled for reuse.
 
 ### GeneChip
- The expression values of the genes were calculated from the original CEL files after robust multi-array averaging (RMA) normalization by the affy package in R/Bioconductor.
+ The expression values of the genes were calculated from the original CEL files after robust multi-array averaging (RMA) normalization by the affy package in R(ver.3.0.3)/Bioconductor(ver.2.12).
 
 ### CAGE
  CAGE data collected in the RIKEN FANTOM5 project were counted by source organ, based on original data, FANTOM5 CAGE peaks expression, and annotation tables. CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are normalized by Tag per million (TPM).
 
 ### RNA-seq
-These data were processed using typical RNA-seq data analysis pipeline with TopHat and Cufflinks, and transcript abundances were calculated and normalized to fragments per kilobase of transcript per million reads (FPKM).
+These data were processed using typical RNA-seq data analysis pipeline with TopHat(ver.2.0.7) and Cufflinks(ver.2.0.2q), and transcript abundances were calculated and normalized to fragments per kilobase of transcript per million reads (FPKM).
+
+
+## Calculation for tissue specificity
+See details: http://bioconductor.org/packages/release/bioc/manuals/TCC/man/TCC.pdf (page 22-24)
+
+## gene2pubmed
+Original source: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2pubmed.gz
+From the original source, each column of Tax_ID is obtained the following,
+
+- human
+Homo sapiens
+Taxonomy ID: 9606
+
+- mouse
+Mus musculus
+Taxonomy ID: 10090
+
+- Rat
+Rattus norvegicus
+Taxonomy ID: 10116
+
+Then count the number of pubmed IDs for each geneID.
