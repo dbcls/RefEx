@@ -48,7 +48,7 @@ These data were processed using typical RNA-seq data analysis pipeline with TopH
 See details: http://bioconductor.org/packages/release/bioc/manuals/TCC/man/TCC.pdf (page 22-24)
 
 ## gene2pubmed
-Original source: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2pubmed.gz
+Original source: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2pubmed.gz  
 From the original source, each column of Tax_ID is obtained the following,
 
 - human (Homo sapiens)  
@@ -57,7 +57,7 @@ Taxonomy ID: 9606
 - mouse (Mus musculus)  
 Taxonomy ID: 10090  
 
-- Rat (Rattus norvegicus)
+- Rat (Rattus norvegicus)  
 Taxonomy ID: 10116
 
 Then count the number of pubmed IDs for each geneID.
