@@ -35,7 +35,8 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
  The number of ESTs was counted by source organ, based on the Bodymap method, according to the cDNA annotation of each EST entry. The EST data in RefEx comes from the BodyMap-Xs database, where gene expression data from the INSD EST division was previously compiled for reuse.
 
 ### GeneChip
- The expression values of the genes were calculated from the original CEL files after robust multi-array averaging (RMA) normalization by the affy package in [R](https://www.r-project.org/) (ver.3.0.3) / [Bioconductor](https://www.bioconductor.org/) (ver.2.12).
+ The expression values of the genes were calculated from the original CEL files after robust multi-array averaging (RMA) normalization by the [affy](https://bioconductor.org/packages/release/bioc/html/affy.html) package in [R](https://www.r-project.org/) (ver.3.0.3) / [Bioconductor](https://www.bioconductor.org/) (ver.2.12).  
+ Script: [GeneChip\_RMA\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/GeneChip_RMA.r)
 
 ### CAGE
  CAGE data collected in [the RIKEN FANTOM5 project](http://fantom.gsc.riken.jp/5/) were counted by source organ, based on original data, FANTOM5 CAGE peaks expression, and annotation tables. CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are normalized by Tag per million (TPM).
