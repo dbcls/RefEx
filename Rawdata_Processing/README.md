@@ -51,16 +51,13 @@ See details: http://bioconductor.org/packages/release/bioc/manuals/TCC/man/TCC.p
 Original source: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2pubmed.gz
 From the original source, each column of Tax_ID is obtained the following,
 
-- human
-Homo sapiens
-Taxonomy ID: 9606
+- human (Homo sapiens)  
+Taxonomy ID: 9606  
 
-- mouse
-Mus musculus
-Taxonomy ID: 10090
+- mouse (Mus musculus)  
+Taxonomy ID: 10090  
 
-- Rat
-Rattus norvegicus
+- Rat (Rattus norvegicus)
 Taxonomy ID: 10116
 
 Then count the number of pubmed IDs for each geneID.
