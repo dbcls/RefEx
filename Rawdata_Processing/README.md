@@ -33,6 +33,8 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 ## Processing protocols
 ### EST
  The number of ESTs was counted by source organ, based on the Bodymap method, according to the cDNA annotation of each EST entry. The EST data in RefEx comes from the BodyMap-Xs database, where gene expression data from the INSD EST division was previously compiled for reuse.
+Script for tag count:[EST\_tagcount\.pl](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/EST_tagcount.pl)  
+Script for normalization:[EST\_norm\.pl](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/EST_norm.pl)  
 
 ### GeneChip
  The expression values of the genes were calculated from the original CEL files after robust multi-array averaging (RMA) normalization by the [affy](https://bioconductor.org/packages/release/bioc/html/affy.html) package in [R](https://www.r-project.org/) (ver.3.0.3) / [Bioconductor](https://www.bioconductor.org/) (ver.2.12).  
