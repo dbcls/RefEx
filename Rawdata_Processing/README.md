@@ -49,7 +49,9 @@ See details: http://bioconductor.org/packages/release/bioc/manuals/TCC/man/TCC.p
 
 ## gene2pubmed
 Original source: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2pubmed.gz  
-Script: [gene2pubmed\.pl](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/gene2pubmed.pl)
+Script: [gene2pubmed\.pl](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/gene2pubmed.pl)  
+
+  
 From the original source, each column of Tax_ID is obtained the following,
 
 - human (Homo sapiens)  
