@@ -4,26 +4,30 @@
 ### EST (Expressed sequence tag)
 Expressed sequence tag (EST) data were originally obtained from the EST division of the INSD(International Nucleotide Sequence Database, consisting of Genbank/DDBJ/ENA).
 
-human,mouse,rat: INSD
+ - human: [INSD](http://www.insdc.org/)
+ - mouse: [INSD](http://www.insdc.org/)
+ - rat: [INSD](http://www.insdc.org/)
 
 ### GeneChip
 GeneChip data were previously measured by Affymetrix microarrays (GeneChip®), and calculated based on a typical microarray data analysis method8. We extracted the microarray data deposited in the NCBI GEO database for our reference dataset (tissue-specific patterns of mRNA expression).
 
-human: GSE7307(Human body index - transcriptional profiling)
-mouse: GSE10246(GNF Mouse GeneAtlas V3)
-rat: GSE952(Transcriptome analysis in rat)
+ - human: [GSE7307](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7307) (Human body index - transcriptional profiling)
+ - mouse: [GSE10246](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10246) (GNF Mouse GeneAtlas V3)
+ - rat: [GSE952](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE952) (Transcriptome analysis in rat)
 
 ### CAGE (cap analysis of gene expression)
 Cap analysis of gene expression (CAGE) is a technique that produces a snapshot of the 52 end of the mRNA population in a biological sample.
 
-human: PRJDB3010 (A promoter level mammalian expression atlas (human, ChIP-Seq))
-mouse: PRJDB1100 (FANTOM5 Mouse CAGE)
+ - human: [PRJDB3010](https://www.ncbi.nlm.nih.gov/bioproject/303078) (A promoter level mammalian expression atlas (human, ChIP-Seq))
+ - mouse: [PRJDB1100](https://www.ncbi.nlm.nih.gov/bioproject/245186) (FANTOM5 Mouse CAGE)
+ - rat: not applicable
 
 ### RNA-seq
 We extracted normal tissue transcriptome sequence data from the NCBI Sequence Read Archive (SRA). Corresponding expression level and location data came from the Illumina Bodymap 2 project for human and mouse transcriptomes.
 
-human: PRJEB2445 (RNA-Seq of human individual tissues and mixture of 16 tissues (Illumina Body Map))
-mouse: PRJNA30467(Mapping and quantifying mammalian transcriptomes by RNA-Seq; brain, liver, muscle)
+ - human: [PRJEB2445](http://www.ebi.ac.uk/ena/data/view/PRJEB2445) (RNA-Seq of human individual tissues and mixture of 16 tissues (Illumina Body Map))
+ - mouse: [PRJNA30467](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA30467) (Mapping and quantifying mammalian transcriptomes by RNA-Seq; brain, liver, muscle)
+ - rat: not applicable
 
 ## Protocols
 ### EST
