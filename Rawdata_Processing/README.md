@@ -51,7 +51,7 @@ These data were processed using typical RNA-seq data analysis pipeline with [Top
 Script: [ROKU\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU.r), [ROKU\_AIC\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU_AIC.r)  
 See details: http://bioconductor.org/packages/release/bioc/manuals/TCC/man/TCC.pdf (page 22-24)
 
-## gene2pubmed
+## Extraction of high-profile genes (Sort for "Gene2Pubmed")
 Original source: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2pubmed.gz  
 Script: [gene2pubmed\.pl](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/gene2pubmed.pl)  
 
