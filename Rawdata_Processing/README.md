@@ -58,7 +58,8 @@ These data were processed using typical RNA-seq data analysis pipeline. Genome a
   ``` tophat2 -p 8 -r 84 -o <OUTPUT> --no-coverage-search hg19 FASTQ_1.fastq FASTQ_2.fastq ```
 
  - A example command for Cufflinks  
-  ``` cufflinks -p 8 -o <OUTPUT> -G Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf BAM.bam ```
+  ``` cufflinks -p 8 -o <OUTPUT> -G Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf BAM.bam
+  ```
 
 ----
 
