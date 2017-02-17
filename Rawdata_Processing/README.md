@@ -52,7 +52,7 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
    - Sample annotation: [Sample annotations for CAGE mouse PRJDB1100 \(FANTOM5\)](https://figshare.com/articles/RefEx_sample_ann_CAGE_mouse_FANTOM5_tsv_zip/4028688)
 
 ### RNA-seq
-These data were processed using typical RNA-seq data analysis pipeline. Genome assemblies hg19 (H. sapiens) and mm9 (M. musculus) were used for the alignment and subsequent processing. Fastq files were aligned with [TopHat 2](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) with ``` -p 8``` and ``` -r N``` (where N is inner distance between mate pairs as shown in each metadata.), ```--no-coverage-search ``` option. Transcript abundances from bam files were calculated with [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2) with a default mode and normalized to fragments per kilobase of transcript per million reads (FPKM).
+These data were processed using typical RNA-seq data analysis pipeline. Genome assemblies hg19 (*H. sapiens*) and mm9 (*M. musculus*) were used for the alignment and subsequent processing. Fastq files were aligned with [TopHat 2](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) with ``` -p 8``` and ``` -r N``` (where N is inner distance between mate pairs as shown in each metadata.), ```--no-coverage-search ``` option. Transcript abundances from bam files were calculated with [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2) with a default mode and normalized to fragments per kilobase of transcript per million reads (FPKM).
 
 
 ## Calculation for tissue specificity
