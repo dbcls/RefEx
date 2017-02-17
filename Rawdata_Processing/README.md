@@ -33,7 +33,7 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 
 ## Processing protocols
 ### EST
- The number of ESTs was counted by source organ, based on the Bodymap method, according to the cDNA annotation of each EST entry. The EST data in RefEx comes from the BodyMap-Xs database, where gene expression data from the INSD EST division was previously compiled for reuse.  
+ The number of ESTs was counted by source organ, based on the [Bodymap method](https://www.ncbi.nlm.nih.gov/pubmed/?term=Okubo%20K%5BAuthor%5D&cauthor=true&cauthor_uid=1345164), according to the cDNA annotation of each EST entry. The EST data in RefEx comes from the [BodyMap\-Xs](http://nar.oxfordjournals.org/content/34/suppl_1/D628.full) database, where gene expression data from the INSD EST division was previously compiled for reuse.  
 - Script for tag count: [EST\_tagcount\.pl](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/EST_tagcount.pl)  
 - Script for normalization: [EST\_norm\.pl](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/EST_norm.pl)  
 
@@ -42,7 +42,9 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 - Script: [GeneChip\_RMA\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/GeneChip_RMA.r)
 
 ### CAGE
- CAGE data collected in [the RIKEN FANTOM5 project](http://fantom.gsc.riken.jp/5/) were counted by source organ, based on original data, FANTOM5 CAGE peaks expression, and annotation tables. CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are normalized by Tag per million (TPM).
+ CAGE data collected in [the RIKEN FANTOM5 project](http://fantom.gsc.riken.jp/5/) were counted by source organ, based on original data, [FANTOM5 CAGE peaks expression, and annotation tables](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/). CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are normalized by Tag per million (TPM).
+ - Sample annotation for human [\(DOI: 10\.6084/m9\.figshare\.4028685\)](https://dx.doi.org/10.6084/m9.figshare.4028685)
+ - Sample annotation for mouse [\(DOI: 10\.6084/m9\.figshare\.4028688\)](https://dx.doi.org/10.6084/m9.figshare.4028688)
 
 ### RNA-seq
 These data were processed using typical RNA-seq data analysis pipeline with [TopHat](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) and [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2), and transcript abundances were calculated and normalized to fragments per kilobase of transcript per million reads (FPKM).
