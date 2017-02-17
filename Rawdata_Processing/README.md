@@ -46,10 +46,10 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 
  - human
    - Original data: [hg19\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/hg19.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
-   - Sample annotation: [DOI: 10\.6084/m9\.figshare\.4028685\](https://dx.doi.org/10.6084/m9.figshare.4028685)  
+   - Sample annotation: [10\.6084/m9\.figshare\.4028685\](https://dx.doi.org/10.6084/m9.figshare.4028685)  
  - mouse
    - Original data: [mm9\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/mm9.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
-   - Sample annotation: [DOI: 10\.6084/m9\.figshare\.4028688\](https://dx.doi.org/10.6084/m9.figshare.4028688)
+   - Sample annotation: [10\.6084/m9\.figshare\.4028688\](https://dx.doi.org/10.6084/m9.figshare.4028688)
 
 ### RNA-seq
 These data were processed using typical RNA-seq data analysis pipeline with [TopHat](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) and [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2), and transcript abundances were calculated and normalized to fragments per kilobase of transcript per million reads (FPKM).
