@@ -77,13 +77,13 @@ The **gene2pubmed** dataset is a manually curated gene to PubMed literature rela
 
 From the original source, each column of Tax_ID is obtained the following,
 
-- human (Homo sapiens)  
+- human (*H. sapiens*)  
 Taxonomy ID: 9606  
 
-- mouse (Mus musculus)  
+- mouse (*M. musculus*)  
 Taxonomy ID: 10090  
 
-- Rat (Rattus norvegicus)  
+- Rat (*R. norvegicus*)  
 Taxonomy ID: 10116
 
 Then count the number of pubmed IDs for each geneID.
