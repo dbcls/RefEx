@@ -59,7 +59,7 @@ These data were processed using typical RNA-seq data analysis pipeline. Genome a
 
  - A example command for Cufflinks  
   ``` cufflinks -p 8 -o <OUTPUT> -G Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf BAM.bam
-  ```
+```
 
 ----
 
