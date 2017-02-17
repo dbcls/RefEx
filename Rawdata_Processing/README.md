@@ -42,7 +42,7 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 - Script: [GeneChip\_RMA\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/GeneChip_RMA.r)
 
 ### CAGE
- CAGE data collected in [the RIKEN FANTOM5 project](http://fantom.gsc.riken.jp/5/) were counted by source organ, based on original data, [FANTOM5 CAGE peaks expression, and annotation tables](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/). CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are normalized by Tag per million (TPM).
+ By [the RIKEN FANTOM5 project](http://fantom.gsc.riken.jp/5/), CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are normalized by Tag per million (TPM). CAGE data in RefEx were counted by source organ accoding to the following original data and sample annotations. 
 
  - human
    - Original data: [hg19\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/hg19.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
