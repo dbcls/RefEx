@@ -57,7 +57,8 @@ These data were processed using typical RNA-seq data analysis pipeline. Genome a
  - A examples for TopHat2  
  ``` tophat2 -p 8 -r 84 -o <OUTPUT> --no-coverage-search hg19 illumina_bodymap/sequences/ERX011182/ERR030885_1.fastq illumina_bodymap/sequences/ERX011182/ERR030885_2.fastq  
  ```  
-- A example command for Cufflinks  
+   
+ - A example command for Cufflinks  
 ```cufflinks -p 8 -o <OUTPUT> -G Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf <BAM_FILE>  
 ```
 
