@@ -2,15 +2,15 @@
 
 ## Original resources
 
-### EST (Expressed sequence tag)
-Expressed sequence tag (EST) data were originally obtained from the EST division of the INSD(International Nucleotide Sequence Database, consisting of Genbank/DDBJ/ENA).
+### EST
+Expressed sequence tag (EST) data were originally obtained from the EST division of the [INSD(International Nucleotide Sequence Database, consisting of Genbank/DDBJ/ENA)](http://www.insdc.org/).
 
  - human: [INSD](http://www.insdc.org/)
  - mouse: [INSD](http://www.insdc.org/)
  - rat: [INSD](http://www.insdc.org/)
 
 ### GeneChip
-GeneChip data were previously measured by Affymetrix microarrays (GeneChip®), and calculated based on a typical microarray data analysis method8. We extracted the microarray data deposited in the NCBI GEO database for our reference dataset (tissue-specific patterns of mRNA expression).
+GeneChip data were previously measured by Affymetrix microarrays (GeneChip®), and calculated based on a typical microarray data analysis method. We extracted the microarray data deposited in the NCBI GEO database for our reference dataset (tissue-specific patterns of mRNA expression).
 
  - human: [GSE7307](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7307) (Human body index - transcriptional profiling)
  - mouse: [GSE10246](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10246) (GNF Mouse GeneAtlas V3)
