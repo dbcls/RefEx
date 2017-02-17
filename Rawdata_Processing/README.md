@@ -38,7 +38,7 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 - Script for normalization: [EST\_norm\.pl](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/EST_norm.pl)  
 
 ### GeneChip
- The expression values of the genes were calculated from the original CEL files after robust multi-array averaging (RMA) normalization by the [affy](https://bioconductor.org/packages/release/bioc/html/affy.html) package in [R](https://www.r-project.org/) (ver.3.0.3) / [Bioconductor](https://www.bioconductor.org/) (ver.2.12).  
+ The expression values of the genes were calculated from the original CEL files after [robust multi‐array average \(RMA\)](https://doi.org/10.1093/biostatistics/4.2.249) normalization by the [affy](https://bioconductor.org/packages/release/bioc/html/affy.html) package in [R](https://www.r-project.org/) (ver.3.0.3) / [Bioconductor](https://www.bioconductor.org/) (ver.2.12).  
 - Script: [GeneChip\_RMA\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/GeneChip_RMA.r)
 
 ### CAGE
