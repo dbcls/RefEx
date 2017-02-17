@@ -58,12 +58,9 @@ These data were processed using typical RNA-seq data analysis pipeline. Genome a
   ``` tophat2 -p 8 -r 84 -o <OUTPUT> --no-coverage-search hg19 FASTQ_1.fastq FASTQ_2.fastq ```
 
  - A example command for Cufflinks  
-  ``` cufflinks -p 8 -o <OUTPUT> -G Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf BAM.bam
-```
+  ``` cufflinks -p 8 -o <OUTPUT> -G Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf BAM.bam ```
 
 ----
-
-
 ## Calculation for tissue specificity
 RefEx contains unique lists of genes whose expression pattern is prominent in a specific tissue compared with other tissues. Those genes with tissue specific expression patterns are calculated for all tissues using the ROKU method [(Kadota et al., BMC Bioinformatics, 2006, 7:294)](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-294).  
 ROKU was developed solely for this purpose. It ranks genes according to their overall tissue specificity using Shannon entropy, and detects tissues specific to each gene, if any exist, using an outlier detection method.   
