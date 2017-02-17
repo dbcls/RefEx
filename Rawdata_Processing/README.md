@@ -1,6 +1,7 @@
 # Rawdata processing protocols for RefEx
-## Original resources
 
+## Original resources
+  
 ### EST (Expressed sequence tag)
 Expressed sequence tag (EST) data were originally obtained from the EST division of the INSD(International Nucleotide Sequence Database, consisting of Genbank/DDBJ/ENA).
 
@@ -45,7 +46,7 @@ Script for normalization: [EST\_norm\.pl](https://github.com/hiromasaono/RefEx/b
 
 ### RNA-seq
 These data were processed using typical RNA-seq data analysis pipeline with [TopHat](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) and [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2), and transcript abundances were calculated and normalized to fragments per kilobase of transcript per million reads (FPKM).
-Script: 
+Script:
 
 ## Calculation for tissue specificity
 Script: [ROKU\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU.r), [ROKU\_AIC\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU_AIC.r)  
