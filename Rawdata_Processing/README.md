@@ -42,7 +42,7 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 - Script: [GeneChip\_RMA\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/GeneChip_RMA.r)
 
 ### CAGE
- By [the RIKEN FANTOM5 project](http://fantom.gsc.riken.jp/5/), CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are normalized by Tag per million (TPM). CAGE data in RefEx were counted by source organ accoding to the following original data and sample annotations.
+ By [the RIKEN FANTOM5 project](http://fantom.gsc.riken.jp/5/), CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are also normalized by Tag per million (TPM). CAGE data in RefEx were counted by source organ accoding to the following original data and sample annotations.
 
  - human
    - Original data: [hg19\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/hg19.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
@@ -52,7 +52,7 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
    - Sample annotation: [Sample annotations for CAGE mouse PRJDB1100 \(FANTOM5\)](https://figshare.com/articles/RefEx_sample_ann_CAGE_mouse_FANTOM5_tsv_zip/4028688)
 
 ### RNA-seq
-These data were processed using typical RNA-seq data analysis pipeline. Genome assemblies hg19 (H. sapiens) and mm9 (M. musculus) were used for the alignment and subsequent processing. Fastq files were aligned with [TopHat 2](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) with ``` -p ``` and ``` -r ```, ```--no-coverage-search ``` option. Transcript abundances from bam files were calculated with [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2) with a default mode and normalized to fragments per kilobase of transcript per million reads (FPKM).
+These data were processed using typical RNA-seq data analysis pipeline. Genome assemblies hg19 (H. sapiens) and mm9 (M. musculus) were used for the alignment and subsequent processing. Fastq files were aligned with [TopHat 2](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) with ``` -p 8``` and ``` -r N (where N is inner distance between mate pairs as shown in each metadata.)```, ```--no-coverage-search ``` option. Transcript abundances from bam files were calculated with [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2) with a default mode and normalized to fragments per kilobase of transcript per million reads (FPKM).
 
 
 ## Calculation for tissue specificity
