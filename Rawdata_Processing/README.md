@@ -70,7 +70,7 @@ RefEx contains unique lists of genes whose expression pattern is prominent in a 
 ROKU was developed solely for this purpose. It ranks genes according to their overall tissue specificity using Shannon entropy, and detects tissues specific to each gene, if any exist, using an outlier detection method.   
 See details: http://bioconductor.org/packages/release/bioc/manuals/TCC/man/TCC.pdf (page 22-24)  
 
-- Script: [ROKU\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU.r), [ROKU\_AIC\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU_AIC.r)  
+- Scripts: [ROKU\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU.r), [ROKU\_AIC\.r](https://github.com/hiromasaono/RefEx/blob/master/Rawdata_Processing/ROKU_AIC.r)  
 
 
 ## Extraction of high-profile genes (Sort for "Gene2Pubmed")
