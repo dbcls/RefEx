@@ -46,7 +46,7 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 
  - human
    - Original data: [hg19\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/hg19.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
-   - Sample annotation: [DOI: 10\.6084/m9\.figshare\.4028685\](https://dx.doi.org/10.6084/m9.figshare.4028685)
+   - Sample annotation: [DOI: 10\.6084/m9\.figshare\.4028685\](https://dx.doi.org/10.6084/m9.figshare.4028685)  
  - mouse
    - Original data: [mm9\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/mm9.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
    - Sample annotation: [DOI: 10\.6084/m9\.figshare\.4028688\](https://dx.doi.org/10.6084/m9.figshare.4028688)
