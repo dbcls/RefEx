@@ -54,7 +54,7 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 ### RNA-seq
 These data were processed using typical RNA-seq data analysis pipeline. Genome assemblies hg19 (*H. sapiens*) and mm9 (*M. musculus*) were used for the alignment and subsequent processing. Fastq files were aligned with [TopHat 2](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) with ``` -p 8``` and ``` -r N``` (where N is inner distance between mate pairs as shown in each metadata.), ```--no-coverage-search ``` option. Transcript abundances from bam files were calculated with [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2) with a default mode and normalized to fragments per kilobase of transcript per million reads (FPKM).
 
- - A example command for TopHat2  
+ - A example command for TopHat 2  
   ```
   tophat2 -p 8 -r 84 -o <OUTPUT> --no-coverage-search hg19 FASTQ_1.fastq FASTQ_2.fastq   
   ```
