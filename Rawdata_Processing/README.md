@@ -44,10 +44,12 @@ We extracted normal tissue transcriptome sequence data from the NCBI Sequence Re
 ### CAGE
  CAGE data collected in [the RIKEN FANTOM5 project](http://fantom.gsc.riken.jp/5/) were counted by source organ, based on original data, [FANTOM5 CAGE peaks expression, and annotation tables](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/). CAGE tag counts mapped to reference genome sequences reflect the intensity of gene expression of corresponding transcripts. Tag counts are normalized by Tag per million (TPM).
 
- - Original data for human: [hg19\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/hg19.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
- - Sample annotation for human: [DOI: 10\.6084/m9\.figshare\.4028685\](https://dx.doi.org/10.6084/m9.figshare.4028685)
- - Original data for mouse: [mm9\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/mm9.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
- - Sample annotation for mouse: [DOI: 10\.6084/m9\.figshare\.4028688\](https://dx.doi.org/10.6084/m9.figshare.4028688)
+ - human
+   - Original data: [hg19\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/hg19.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
+   - Sample annotation: [DOI: 10\.6084/m9\.figshare\.4028685\](https://dx.doi.org/10.6084/m9.figshare.4028685)
+ - mouse
+   - Original data: [mm9\.cage\_peak\_phase1and2combined\_tpm\_ann\.osc\.txt\.gz](http://fantom.gsc.riken.jp/5/datafiles/latest/extra/CAGE_peaks/mm9.cage_peak_phase1and2combined_tpm_ann.osc.txt.gz)
+   - Sample annotation: [DOI: 10\.6084/m9\.figshare\.4028688\](https://dx.doi.org/10.6084/m9.figshare.4028688)
 
 ### RNA-seq
 These data were processed using typical RNA-seq data analysis pipeline with [TopHat](https://ccb.jhu.edu/software/tophat/) (ver.2.0.7) and [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) (ver.2.0.2), and transcript abundances were calculated and normalized to fragments per kilobase of transcript per million reads (FPKM).
