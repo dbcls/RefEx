@@ -5,7 +5,7 @@
 <h3>RefExとは</h3>
 	<p>RefEx（Reference Expression dataset）は、遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。</p>
 	<p>( <a title="http://refex.dbcls.jp/" href="http://refex.dbcls.jp/" target="_blank">http://refex.dbcls.jp/</a> )</p>
-	<img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx1.png" alt="サンプル1" width="300" height="200" hspace="10"/>　<img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx2.png" alt="サンプル2"  width="300" height="200" hspace="10"/>
+	<img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx1.png" alt="サンプル1" width="300" height="200" hspace="10" align="center"/><img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx2.png" alt="サンプル2"  width="300" height="200" hspace="10" align="center"/>
 <h4>RefExの特徴</h4>
 	<ul>
 		<li>正常組織・細胞等の遺伝子発現状況を ひと目で</li>
@@ -33,7 +33,7 @@
 		<li>組織特異的に発現する遺伝子をワンタッチで検索可能｡</li>
 		<li>遺伝子発現解析などで見出された不詳な遺伝子群の機能および関係性を調べる｡</li>
 	</ul>
-	<img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx3.png" alt="サンプル3" width="300" height="200" hspace="10" align="left"/>
+	<img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx3.png" alt="サンプル3" width="300" height="200" hspace="10" align="center"/>
 	<br clear="left">
 	</p>
 <h4>今後の開発予定</h4>
