@@ -1,8 +1,13 @@
-### About RefEx
+## About RefEx
 <p><strong>RefEx (Reference Expression dataset; <a href="http://refex.dbcls.jp">http://refex.dbcls.jp</a>) is a web tool for browsing reference gene expression, which provides access to curated data from several other public databases, with expression levels in forty tissues measured by four well-established gene-expression quantification technologies.</strong> The web interface allows users to browse the expression profiles by the gene name, various types of IDs, chromosomal regions in genetic maps, gene family based on InterPro, gene expression patterns, or biological categories based on Gene Ontology, and to compare expression profiles by different methods at a glance. </p>
 <p><strong>RefEx provides suitable datasets as a reference for gene expression data from 40 normal human, mouse, and rat tissues and cells.</strong> Forty tissues were selected based on the experience gained while constructing the <a href="http://dx.doi.org/10.1093/nar/gkj137" target="_blank">bodymap</a> database. The 40 tissues are classified into 10 groups (i.e., brain, blood, connective, reproductive, muscular, alimentary, liver, lung, urinary, and endo/exocrine). These groupings are mainly used for the abstraction of the gene expression profiles in the summary view and the inference of gene functions by the gene expression profiles. The following four different measurement strategies were used in our collected gene expression data: ESTs, Affymetrix GeneChip, CAGE, and RNA-Seq. These four types of data were linked based on the NCBI gene IDs in the dataset in RefEx.</p>
 
-<h3>RefExとは</h3>
+### Table of Contents
+- [Rawdata_Processing](https://github.com/hiromasaono/RefEx/tree/master/Rawdata_Processing)
+- [Sample_Annotations](https://github.com/hiromasaono/RefEx/tree/master/Sample_Annotations)
+- [Processed_Data](https://github.com/hiromasaono/RefEx/tree/master/Processed_Data)
+
+<h2>RefExとは</h2>
 	<p>RefEx（Reference Expression dataset）は、遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。</p>
 	<p>( <a title="http://refex.dbcls.jp/" href="http://refex.dbcls.jp/" target="_blank">http://refex.dbcls.jp/</a> )</p>
 	<img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx1.png" alt="サンプル1" width="300" height="200" hspace="10" align="center"/><img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx2.png" alt="サンプル2"  width="300" height="200" hspace="10" align="center"/>
@@ -25,7 +30,7 @@
 				<li>RefExが提供するすべてのデータは、クリエイティブ·コモンズライセンスのもとで、オープンデータとして自由にダウンロードおよび再利用することができます。検索結果一覧や詳細情報ページのデータはいずれもダウンロードすることが可能で、研究者自身のデータと参照することも、それらを使った再解析も自由に行うことができます。また、外部の研究データレポジトリ「figshare」にも全てのデータがDOI付きで公開されています（<a href="https://doi.org/10.6084/m9.figshare.c.3812815" target="_blank">https://doi.org/10.6084/m9.figshare.c.3812815</a>）。さらに、ソフトウェア開発プロジェクトのための共有ウェブサービス「GitHub」上にも、公開データの再解析に用いたプログラムやドキュメントを整理しており、RefExで提供する再解析データについてある一定の評価品質および再現性を担保しています（<a href="https://github.com/dbcls/RefEx" target="_blank">https://github.com/dbcls/RefEx</a>）。RefExは生命科学データの共有および再利用の活用例のひとつであり、データ駆動型研究のためのデータセット、ウェブツールとしてだれでも自由に使うことができます。</li>
 			</ul>
 	</ul>
-<h4>利用例</h4>
+<h3>利用例</h3>
 	<p>
 	<ul>
 		<li>正常組織や細胞株における遺伝子発現データを調べる｡</li>
@@ -36,11 +41,11 @@
 	<img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx3.png" alt="サンプル3" width="300" height="200" hspace="10" align="center"/>
 	<br clear="left">
 	</p>
-<h4>今後の開発予定</h4>
+<h3>今後の開発予定</h3>
 	<ul>
 		<li>今後は、世界各地で進められている遺伝子発現に関する大規模研究プロジェクト（FANTOM、GTExなど）を中心に、高精度かつ広範囲な遺伝子発現データを収集し、統合することによって、より有用性の高い参照データを作成する予定です。また、それらの参照データを簡単に検索したり、発現データ同士を詳細に比較したりすることを可能にする直感的なウェブインターフェースの開発を進めています。</li>
 </ul>
-<h4>参考文献</h4>
+<h3>参考文献</h3>
 <ul>
 	<li>Hiromasa Ono, Osamu Ogasawara, Kosaku Okubo, Hidemasa Bono
 <strong>RefEx, a reference gene expression dataset as a web tool for the functional analysis of genes</strong>
