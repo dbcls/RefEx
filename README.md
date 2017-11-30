@@ -11,7 +11,7 @@
 	<p>RefEx（Reference Expression dataset）は、遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。</p>
 	<p>( <a title="http://refex.dbcls.jp/" href="http://refex.dbcls.jp/" target="_blank">http://refex.dbcls.jp/</a> )</p>
 	<img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx1.png" alt="サンプル1" width="300" height="200" hspace="10" align="center"/><img src="http://dbcls.rois.ac.jp/wp-content/uploads/2014/05/RefEx2.png" alt="サンプル2"  width="300" height="200" hspace="10" align="center"/>
-<h4>RefExの特徴</h4>
+<h3>RefExの特徴</h3>
 	<ul>
 		<li>正常組織・細胞等の遺伝子発現状況を ひと目で</li>
 			<ul>
