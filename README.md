@@ -8,3 +8,6 @@
 - [Processed_Data](https://github.com/hiromasaono/RefEx/tree/master/Processed_Data)
 
 <img src="http://dbcls.rois.ac.jp/wp-content/uploads/2017/11/20171130RefExenTOP.png" alt="TopPage" width="300" height="200" hspace="10" align="center"/><img src="http://dbcls.rois.ac.jp/wp-content/uploads/2017/11/20171130RefEXSR.png" alt="Search Results"  width="300" height="200" hspace="10" align="center"/>
+ 
+### How to use RefEx
+[![](http://img.youtube.com/vi/Jfo0Uquz15U/0.jpg)](https://www.youtube.com/watch?v=Jfo0Uquz15U)
